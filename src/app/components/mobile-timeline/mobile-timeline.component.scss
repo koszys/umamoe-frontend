@@ -578,3 +578,15 @@
     from { text-shadow: 0 0 6px rgba(255, 87, 34, 0.5); }
     to   { text-shadow: 0 0 14px rgba(255, 87, 34, 0.8), 0 0 20px rgba(255, 138, 101, 0.4); }
 }
+
+// ==========================================
+// FIXED TODAY BUTTON
+// ==========================================
+
+.tl-today-btn-fixed {
+    position: fixed;
+    bottom: .7rem;
+    right: 1rem;
+    z-index: 1001;
+    color: var(--accent-primary);
+}
